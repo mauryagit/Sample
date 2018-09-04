@@ -1,0 +1,31 @@
+{
+  "entries": [
+    {
+      "entry": "./lib/webparts/welcome/WelcomeWebPart.js",
+      "manifest": "./src/webparts/welcome/WelcomeWebPart.manifest.json",
+      "outputPath": "./dist/welcome-web-part.js"
+    },
+    {
+      "entry": "./lib/webparts/preconfiguredWebpart/PreconfiguredWebpartWebPart.js",
+      "manifest": "./src/webparts/preconfiguredWebpart/PreconfiguredWebpartWebPart.manifest.json",
+      "outputPath": "./dist/preconfigured-webpart-web-part.js"
+    },
+    {
+      "entry": "./lib/webparts/validateProperty/ValidatePropertyWebPart.js",
+      "manifest": "./src/webparts/validateProperty/ValidatePropertyWebPart.manifest.json",
+      "outputPath": "./dist/validate-property-web-part.js"
+    },
+    {
+      "entry": "./lib/webparts/customPropertyPaneWp/CustomPropertyPaneWpWebPart.js",
+      "manifest": "./src/webparts/customPropertyPaneWp/CustomPropertyPaneWpWebPart.manifest.json",
+      "outputPath": "./dist/custom-property-pane-wp-web-part.js"
+    }
+  ],
+  "externals": {},
+  "localizedResources": {
+    "WelcomeWebPartStrings": "webparts/welcome/loc/{locale}.js",
+    "PreconfiguredWebpartWebPartStrings": "webparts/preconfiguredWebpart/loc/{locale}.js",
+    "ValidatePropertyWebPartStrings": "webparts/validateProperty/loc/{locale}.js",
+    "CustomPropertyPaneWpWebPartStrings": "webparts/customPropertyPaneWp/loc/{locale}.js"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "reliance-apps-client-side-solution",
+    "id": "fbd816fc-e9b1-43d7-94cf-8ac4389f2ace",
+    "version": "1.0.0.0"
+  },
+  "paths": {
+    "zippedPackage": "solution/reliance-apps.sppkg"
+  }
+}

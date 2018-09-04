@@ -1,0 +1,11 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "version": "1.5.1",
+    "libraryName": "reliance-apps",
+    "libraryId": "fbd816fc-e9b1-43d7-94cf-8ac4389f2ace",
+    "environment": "onprem",
+    "packageManager": "npm",
+    "isCreatingSolution": false,
+    "componentType": "webpart"
+  }
+}
